@@ -98,8 +98,8 @@ Planning
 Usage
 *****
 
-* Follow conventions described in this project's `documentation`_
-* Reference this `documentation`_ in your project's documentation.
+* Read and follow `conventions for Sphinx-based documentations`_
+* Reference the convention in your project's documentation.
 
 **********
 Contribute
@@ -155,7 +155,8 @@ contains in the ``install`` section to your needs.
 Hack
 ====
 
-They said "Eat your own dog food", so follow `Sphinx documenting standards`_.
+They said "Eat your own dog food", so follow `conventions for Sphinx-based
+documentations`_.
 
 In your commit messages, reference the ticket with some ``refs #TICKET-ID``
 syntax.
@@ -195,4 +196,6 @@ References
 .. _`Lettuce`: http://lettuce.it/
 .. _`Read the docs`: http://readthedocs.org
 .. _`Python`: http://python.org
+.. _`conventions for Sphinx-based documentations`: 
+   http://sphinx-documenting-standards.readthedocs.org/
 .. _`Virtualenv`: http://virtualenv.org
