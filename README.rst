@@ -2,8 +2,7 @@
 Documenting standards for Sphinx-based projects
 ###############################################
 
-This project is about coding standards applied to `Sphinx`_-based
-documentations.
+This project is about coding standards for `Sphinx`_-based documentations.
 
 **********
 Ressources
@@ -12,6 +11,18 @@ Ressources
 * `code repository`_
 * `bugtracker`_
 * `online documentation`_
+
+******
+Status
+******
+
+**This is a proposal.**
+
+Although applied on private or small projects, this style guide should be
+considered as a proposal. It is not industry standard and have not been
+supported by some "big" projects.
+
+However, **give it a try!**
 
 ******
 Vision
@@ -27,7 +38,7 @@ In software development, documentation matters.
 almost everything. One of his strength is to use the `RestructuredText`_
 syntax, which focuses on simplicity and readability for humans.
 
-When developers contribute to many projects, they read and write documentation.
+When developers contribute to projects, they read and write documentation.
 There are conventions about writing code, but there is no about writing
 documentation. So documentations, despite they are based on a common toolkit,
 are really heterogeneous.
@@ -51,9 +62,9 @@ Goal
       And a team
       When the team chose Sphinx as documentation builder for project
       And the team needs conventions about the documentation
-      Then they follow the rules provided at
+      Then team members follow the rules provided at
       http://sphinx-documenting-standards.readthedocs.org/
-      And reference it in their documentation.
+      And reference it in the project's documentation.
 
 This project focuses on conventions about what `PEP 8`_ calls "style guide".
 
@@ -181,5 +192,7 @@ References
    http://sphinx-documenting-standards.readthedocs.org/
 .. _`RestructuredText`: http://docutils.sourceforge.net/rst.html
 .. _`PEP 8`: http://www.python.org/dev/peps/pep-0008/
+.. _`Lettuce`: http://lettuce.it/
+.. _`Read the docs`: http://readthedocs.org
 .. _`Python`: http://python.org
 .. _`Virtualenv`: http://virtualenv.org
