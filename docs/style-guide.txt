@@ -148,8 +148,10 @@ There should be only one H1 in a document.
 
   See also `Sphinx's documentation about sections`_.
 
+
+***********
 Code blocks
-===========
+***********
 
 Use the ``code-block`` directive **and** specify the programming language. As
 an example:
