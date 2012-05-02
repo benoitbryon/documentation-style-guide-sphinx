@@ -33,15 +33,22 @@ Context
 
 In software development, documentation matters.
 
-`Sphinx`_ is a great documentation builder. It is industry standard for
+`Sphinx`_ is a great documentation builder. It is community standard for
 `Python`_ projects, but is not tied to Python and can be used to document
 almost everything. One of his strength is to use the `reStructuredText`_
 syntax, which focuses on simplicity and readability for humans.
 
+`Sphinx reStructuredText primer` and `docutils' reStructuredText
+documentation`_ focus on syntax. They give examples, but they are quite
+permissive.
+
 When developers contribute to projects, they read and write documentation.
 There are conventions about writing code, but there is no about writing
 documentation. So documentations, despite they are based on a common toolkit,
-are really heterogeneous.
+are really heterogeneous:
+
+* the more developers, the more heterogeneous.
+* every project may use its own conventions.
 
 Goal
 ====
