@@ -38,7 +38,7 @@ In software development, documentation matters.
 almost everything. One of his strength is to use the `reStructuredText`_
 syntax, which focuses on simplicity and readability for humans.
 
-`Sphinx reStructuredText primer` and `docutils' reStructuredText
+`Sphinx reStructuredText primer`_ and `docutils' reStructuredText
 documentation`_ focus on syntax. They give examples, but they are quite
 permissive.
 
@@ -199,6 +199,9 @@ References
 .. _`online documentation`:
    http://documentation-style-guide-sphinx.readthedocs.org/
 .. _`RestructuredText`: http://docutils.sourceforge.net/rst.html
+.. _`Sphinx reStructuredText primer`: http://sphinx.pocoo.org/rest.html
+.. _`docutils' reStructuredText documentation`:
+   http://docutils.sourceforge.net/rst.html
 .. _`PEP 8`: http://www.python.org/dev/peps/pep-0008/
 .. _`Lettuce`: http://lettuce.it/
 .. _`Read the docs`: http://readthedocs.org
