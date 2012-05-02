@@ -1,6 +1,6 @@
-###############################################
-Documenting standards for Sphinx-based projects
-###############################################
+###########################################
+Style guide for Sphinx-based documentations
+###########################################
 
 This project is about coding standards for `Sphinx`_-based documentations.
 
@@ -35,7 +35,7 @@ In software development, documentation matters.
 
 `Sphinx`_ is a great documentation builder. It is industry standard for
 `Python`_ projects, but is not tied to Python and can be used to document
-almost everything. One of his strength is to use the `RestructuredText`_
+almost everything. One of his strength is to use the `reStructuredText`_
 syntax, which focuses on simplicity and readability for humans.
 
 When developers contribute to projects, they read and write documentation.
@@ -63,7 +63,7 @@ Goal
       When the team chose Sphinx as documentation builder for project
       And the team needs conventions about the documentation
       Then team members follow the rules provided at
-      http://sphinx-documenting-standards.readthedocs.org/
+      http://documentation-style-guide-sphinx.readthedocs.org/
       And reference it in the project's documentation.
 
 This project focuses on conventions about what `PEP 8`_ calls "style guide".
@@ -73,9 +73,9 @@ Related work
 
 Style guide is mostly about syntax. It is not enough.
 
-* because writing documentation is not so easy, we need guidelines about
+* Because writing documentation is not so easy, we need guidelines about
   documentation content, i.e. best-practices.
-* because we often adapt patterns while documenting, we need helpers to
+* Because we often adapt patterns while documenting, we need helpers to
   generate documentation content, i.e. templates.
 
 Planning
@@ -98,7 +98,7 @@ Planning
 Usage
 *****
 
-* Read and follow `conventions for Sphinx-based documentations`_
+* Read and follow `style guide for Sphinx-based documentations`_
 * Reference the convention in your project's documentation.
 
 **********
@@ -145,8 +145,8 @@ Execute:
 
 ::
 
-  git clone git@github.com/benoitbryon/sphinx-documenting-standards.git
-  cd sphinx-documenting-standards/
+  git clone git@github.com/benoitbryon/documentation-style-guide-sphinx.git
+  cd documentation-style-guide-sphinx/
   make install
 
 If you cannot execute the Makefile, read it and adapt the few commands it
@@ -155,7 +155,7 @@ contains in the ``install`` section to your needs.
 Hack
 ====
 
-They said "Eat your own dog food", so follow `conventions for Sphinx-based
+They said "Eat your own dog food", so follow `style guide for Sphinx-based
 documentations`_.
 
 In your commit messages, reference the ticket with some ``refs #TICKET-ID``
@@ -186,16 +186,16 @@ References
 
 .. _`Sphinx`: http://sphinx.pocoo.org
 .. _`code repository`: 
-   https://github.com/benoitbryon/sphinx-documenting-standards
+   https://github.com/benoitbryon/documentation-style-guide-sphinx
 .. _`bugtracker`: 
-   https://github.com/benoitbryon/sphinx-documenting-standards/issues
+   https://github.com/benoitbryon/documentation-style-guide-sphinx/issues
 .. _`online documentation`:
-   http://sphinx-documenting-standards.readthedocs.org/
+   http://documentation-style-guide-sphinx.readthedocs.org/
 .. _`RestructuredText`: http://docutils.sourceforge.net/rst.html
 .. _`PEP 8`: http://www.python.org/dev/peps/pep-0008/
 .. _`Lettuce`: http://lettuce.it/
 .. _`Read the docs`: http://readthedocs.org
 .. _`Python`: http://python.org
-.. _`conventions for Sphinx-based documentations`: 
-   http://sphinx-documenting-standards.readthedocs.org/
+.. _`style guide for Sphinx-based documentations`:
+   http://documentation-style-guide-sphinx.readthedocs.org/
 .. _`Virtualenv`: http://virtualenv.org
