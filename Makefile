@@ -7,6 +7,13 @@ install:
 	python lib/buildout/bootstrap.py --distribute
 	bin/buildout -N
 
-build-documentation:
+uninstall:
+	rm -r ${ROOT_DIR}/bin ${ROOT_DIR}/lib
+
+documentation-build:
 	cd ${ROOT_DIR}/docs; make clean html
 
+README-build:
+	cd ${ROOT_DIR}
+	mkdir -p docs/_build/README
+	bin/rst2 html README.rst > docs/_build/README/README.html
