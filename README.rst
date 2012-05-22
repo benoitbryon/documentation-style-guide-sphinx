@@ -176,7 +176,13 @@ Build the documentation and review your work before commit:
 
 ::
 
-  make build-documentation
+  make documentation-build
+
+Build the README and review your work before commit:
+
+::
+
+  make README-build
 
 Share
 =====
