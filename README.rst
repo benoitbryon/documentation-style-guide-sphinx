@@ -56,7 +56,7 @@ are really heterogeneous:
 Goal
 ====
 
-.. code:: gherkin
+::
 
   Feature: public documenting standards
 
@@ -151,7 +151,7 @@ System requirements:
 
 Execute:
 
-.. code:: sh
+::
 
   git clone git@github.com/benoitbryon/documentation-style-guide-sphinx.git
   cd documentation-style-guide-sphinx/
@@ -174,7 +174,7 @@ Test and build
 
 Build the documentation and review your work before commit:
 
-.. code:: sh
+::
 
   make build-documentation
 
