@@ -4,6 +4,7 @@ Style guide for Sphinx-based documentations
 
 This project is about coding standards for `Sphinx`_-based documentations.
 
+
 **********
 Ressources
 **********
@@ -11,6 +12,7 @@ Ressources
 * `code repository`_
 * `bugtracker`_
 * `online documentation`_
+
 
 ******
 Status
@@ -23,6 +25,7 @@ considered as a proposal. It is not industry standard and have not been
 supported by some "big" projects.
 
 However, **give it a try!**
+
 
 ******
 Vision
@@ -52,8 +55,6 @@ are really heterogeneous:
 
 Goal
 ====
-
-.. hightlight:: gherkin
 
 ::
 
@@ -101,12 +102,14 @@ Planning
 * Depending on the feedback and contributions, reconsider this project's
   relevance, adapt goals and planning.
 
+
 *****
 Usage
 *****
 
 * Read and follow `style guide for Sphinx-based documentations`_
 * Reference the convention in your project's documentation.
+
 
 **********
 Contribute
@@ -148,8 +151,6 @@ System requirements:
 
 Execute:
 
-.. hightlight:: sh
-
 ::
 
   git clone git@github.com/benoitbryon/documentation-style-guide-sphinx.git
@@ -171,9 +172,7 @@ syntax.
 Test and build
 ==============
 
-Build the documentation and review your work before commit.
-
-.. highlight:: sh
+Build the documentation and review your work before commit:
 
 ::
 
@@ -184,6 +183,7 @@ Share
 
 * Push your code
 * Submit a pull request
+
 
 **********
 References
