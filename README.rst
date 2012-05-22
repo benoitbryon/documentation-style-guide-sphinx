@@ -172,22 +172,16 @@ syntax.
 Test and build
 ==============
 
-Before a commit:
+Tests and builds will automatically be triggered before commit:
 
-* make sure tests pass:
+* Tests include the build of documentation and README as HTML.
+* A `Git pre-commit hook`_ is installed during `Download and install`_.
 
-  ::
+If you want to run them manually, use the provided Makefile:
 
-    make tests
-
-* Review generated HTML contents in ``docs/_build/`` folder.
-
-You can also use the provided Makefile to build documentation and README:
-
-::
-
-  make documentation-build
-  make README-build
+* run tests with ``make tests``
+* build documentation with ``make documentation-build``
+* build README with ``make README-build``
 
 Share
 =====
@@ -220,3 +214,4 @@ References
 .. _`style guide for Sphinx-based documentations`:
    http://documentation-style-guide-sphinx.readthedocs.org/
 .. _`Virtualenv`: http://virtualenv.org
+.. _`Git pre-commit hook`: http://git-scm.com/book/en/Customizing-Git-Git-Hooks

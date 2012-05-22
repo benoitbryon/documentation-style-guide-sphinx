@@ -1,0 +1,24 @@
+#!/usr/bin/env python
+"""Git pre-commit hook that runs tests before accepting commit."""
+import os
+import subprocess
+import sys
+
+
+git_hooks_dir = os.path.normpath(os.path.abspath(os.path.dirname(__file__)))
+root_dir = os.path.dirname(os.path.dirname(git_hooks_dir))
+
+print "Entering pre-commit hook."
+print "Running tests..."
+process = subprocess.Popen(['make', 'tests'], stdout=subprocess.PIPE,
+                           stderr=subprocess.PIPE)
+retcode = process.wait()
+stdout, stderr = process.communicate()
+if not retcode is 0:
+    sys.stderr.write(stderr)
+    sys.stderr.write(stdout)
+    sys.exit(1)
+else:
+    print "[success] Tests passed."
+    print "Exiting pre-commit hook."
+
