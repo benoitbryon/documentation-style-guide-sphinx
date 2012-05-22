@@ -10,6 +10,9 @@ install:
 uninstall:
 	rm -r ${ROOT_DIR}/bin ${ROOT_DIR}/lib
 
+tests:
+	${ROOT_DIR}/bin/lettuce
+
 documentation-build:
 	cd ${ROOT_DIR}/docs; make clean html
 

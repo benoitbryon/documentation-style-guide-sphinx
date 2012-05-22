@@ -172,16 +172,21 @@ syntax.
 Test and build
 ==============
 
-Build the documentation and review your work before commit:
+Before a commit:
+
+* make sure tests pass:
+
+  ::
+
+    make tests
+
+* Review generated HTML contents in ``docs/_build/`` folder.
+
+You can also use the provided Makefile to build documentation and README:
 
 ::
 
   make documentation-build
-
-Build the README and review your work before commit:
-
-::
-
   make README-build
 
 Share
