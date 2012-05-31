@@ -1,0 +1,55 @@
+######
+Status
+######
+
+Notes about the project status, until next release.
+
+
+******************
+This is a proposal
+******************
+
+Although applied on private or small projects, this style guide should be
+considered as a draft. It is not industry standard and have not been supported
+by some "big" projects.
+
+However, you can already use it or provide feedback!
+
+Status would change if, as examples:
+
+* additional users give feedback, i.e. if the project is not used by only its
+  author ;)
+
+* additional contributors join the project, which should be equivalent to the
+  previous point.
+
+* another project replaces this one.
+
+
+********
+Planning
+********
+
+* Use the style guide in some projects managed by authors, contributors and
+  early adopters.
+* Communicate and get feedback. Propose it to some visible projects such as:
+
+  * `Read the docs`_
+  * `Sphinx`_
+  * `Python`_
+  * `Lettuce`_
+
+* Depending on the feedback and contributions, reconsider this project's
+  relevance, adapt goals and planning.
+
+
+**********
+References
+**********
+
+.. target-notes::
+
+.. _`Read the docs`: http://readthedocs.org
+.. _`Sphinx`: http://sphinx.pocoo.org
+.. _`Python`: http://python.org
+.. _`Lettuce`: http://lettuce.it
