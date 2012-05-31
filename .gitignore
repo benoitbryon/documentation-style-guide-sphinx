@@ -11,3 +11,6 @@
 
 # Documentation builds.
 /docs/_build/
+
+# Editor(s) temporary files.
+.*.swp
