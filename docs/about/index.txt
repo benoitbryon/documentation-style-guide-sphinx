@@ -1,0 +1,13 @@
+#####
+About
+#####
+
+This section contains information about the
+documentation-project-style-guide-sphinx project itself.
+
+.. toctree::
+   
+   vision
+   status
+   authors
+   license

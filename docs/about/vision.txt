@@ -1,0 +1,97 @@
+######
+Vision
+######
+
+About motivations and goals of the documentation-style-guide-sphinx project.
+
+
+*******
+Context
+*******
+
+In software development, documentation matters.
+
+`Sphinx`_ is a great documentation builder. It is community standard for
+`Python`_ projects, but is not tied to Python and can be used to document
+almost everything. One of his strength is to use the `reStructuredText`_
+syntax, which focuses on simplicity and readability for humans.
+
+As of may 2012, `Sphinx's reStructuredText primer`_ and `docutils'
+reStructuredText documentation`_ focus on syntax. They give examples, but they
+are quite permissive.
+
+When developers contribute to projects, they read and write documentation.
+There are conventions about writing code, but there is no about writing
+documentation. So documentations, despite they are based on a common toolkit,
+are really heterogeneous:
+
+* the more developers, the more heterogeneous.
+* every project may use its own conventions.
+
+
+****
+Goal
+****
+
+.. code-block:: gherkin
+
+  Feature: public sphinx style guide
+
+    In order to improve readability of documentation and make it consistent
+    across the wide spectrum of Sphinx-based documentations
+    As member of a development team
+    I want to follow style conventions.
+
+    Scenario: Adopt documentation-related conventions for a project
+      Given a project
+      And a team
+      When the team chose Sphinx as documentation builder for project
+      And the team needs conventions about the documentation
+      Then team members follow the rules provided at
+      http://documentation-style-guide-sphinx.readthedocs.org/
+      And reference it in their project's documentation.
+
+
+
+**********
+Priorities
+**********
+
+As explained in :doc:`/about/status`, priorities of this release are:
+
+* write, try and maintain a public draft,
+* communicate about this project.
+
+
+************
+Related work
+************
+
+Style guide is mostly about syntax. It is not enough.
+
+* Because writing documentation is not so easy, we need guidelines about
+  documentation content, i.e. best-practices.
+  See `documentation-best-practices`_ project.
+
+* Because we often adapt patterns while documenting, we need helpers to
+  generate documentation content, i.e. templates.
+
+* We also need tools to automate some tasks, generate more content from code,
+  to run tests...
+
+
+**********
+References
+**********
+
+.. target-notes::
+
+.. _`Sphinx`: http://sphinx.pocoo.org
+.. _`Python`: http://python.org
+.. _`RestructuredText`: http://docutils.sourceforge.net/rst.html
+.. _`Sphinx's reStructuredText primer`: http://sphinx.pocoo.org/rest.html
+.. _`docutils' reStructuredText documentation`:
+   http://docutils.sourceforge.net/rst.html
+.. _`PEP 8`: http://www.python.org/dev/peps/pep-0008/
+.. _`documentation-best-practices`:
+   http://documentation-best-practices.readthedocs.org
